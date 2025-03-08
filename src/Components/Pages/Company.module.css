@@ -1,0 +1,40 @@
+.company {
+    margin-top:1.2em;
+    align-items: center;
+}
+
+.company h1 {
+    font-size:5em;
+
+}
+.company span {
+    color:#ffbb33;
+    padding: 0 .2em;
+    background-color: #222;
+}
+
+.btn {
+    background-color:#222;
+    color:#fff;
+    padding: 0.5em 1em;
+    text-decoration:none;
+    cursor:pointer;
+    max-height:40px;
+    border: none;
+    margin-top:3em;
+    margin-bottom:1.2em;
+}
+.btn:hover {
+    color:#ffbb33;
+}
+.cost_info  li {
+    list-style:none;
+  padding:10px;
+
+}
+.cost_info li::before {
+    content: "✅"; 
+    margin-right: 10px;
+  }
+
+  
